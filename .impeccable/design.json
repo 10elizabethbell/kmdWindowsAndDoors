@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T23:58:23.792619+00:00",
+  "title": "Design System: KMD Windows and Doors",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Vinyl Trim White",
+        "canonical": "#f4f6f7",
+        "oklch": "oklch(97.2% 0.003 229)",
+        "tonalRamp": [
+          "#0a0b0c",
+          "#242526",
+          "#414243",
+          "#606162",
+          "#818383",
+          "#a3a5a6",
+          "#c7c9ca",
+          "#edeff0"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Navy-Charcoal Ink",
+        "canonical": "#15213b",
+        "oklch": "oklch(25.1% 0.052 264)",
+        "tonalRamp": [
+          "#020921",
+          "#18243e",
+          "#34425e",
+          "#526180",
+          "#7382a2",
+          "#95a5c7",
+          "#b8caec",
+          "#ddefff"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "#4a5670",
+        "oklch": "oklch(45.3% 0.045 265)",
+        "tonalRamp": [
+          "#040a1e",
+          "#1a243b",
+          "#36425b",
+          "#55617c",
+          "#75829e",
+          "#97a5c2",
+          "#bbc9e8",
+          "#e0efff"
+        ]
+      },
+      "navy": {
+        "role": "primary",
+        "displayName": "Shutter Navy",
+        "canonical": "#12306c",
+        "oklch": "oklch(32.6% 0.111 262)",
+        "tonalRamp": [
+          "#000038",
+          "#031f5a",
+          "#1f3f7c",
+          "#3e5fa0",
+          "#5d81c5",
+          "#7fa5eb",
+          "#a2c9ff",
+          "#c6efff"
+        ]
+      },
+      "navy-deep": {
+        "role": "primary",
+        "displayName": "Deep Shutter Navy",
+        "canonical": "#0d2453",
+        "oklch": "oklch(27.4% 0.091 262)",
+        "tonalRamp": [
+          "#000330",
+          "#0b2150",
+          "#274072",
+          "#456095",
+          "#6582b9",
+          "#86a5de",
+          "#aacaff",
+          "#ceefff"
+        ]
+      },
+      "navy-night": {
+        "role": "primary",
+        "displayName": "Night Navy",
+        "canonical": "#0a1c42",
+        "oklch": "oklch(23.7% 0.076 263)",
+        "tonalRamp": [
+          "#00062a",
+          "#102349",
+          "#2c416a",
+          "#4a618d",
+          "#6a82b0",
+          "#8ca5d5",
+          "#afcafc",
+          "#d4efff"
+        ]
+      },
+      "vinyl": {
+        "role": "neutral",
+        "displayName": "Window Frame White",
+        "canonical": "#fcfbf8",
+        "oklch": "oklch(98.8% 0.004 91)",
+        "tonalRamp": [
+          "#0c0b09",
+          "#262523",
+          "#434240",
+          "#62615f",
+          "#838280",
+          "#a6a5a2",
+          "#cac9c6",
+          "#efeeeb"
+        ]
+      },
+      "siding-tint": {
+        "role": "neutral",
+        "displayName": "Lap Siding Beige",
+        "canonical": "#efe8da",
+        "oklch": "oklch(93.3% 0.020 85)",
+        "tonalRamp": [
+          "#0f0a03",
+          "#2a241a",
+          "#474136",
+          "#676154",
+          "#888275",
+          "#aba497",
+          "#cfc8bb",
+          "#f5eee0"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Trim Line",
+        "canonical": "#d9dee4",
+        "oklch": "oklch(89.9% 0.010 253)",
+        "tonalRamp": [
+          "#080b0f",
+          "#22252a",
+          "#3e4247",
+          "#5d6267",
+          "#7e8388",
+          "#a1a5ab",
+          "#c5cad0",
+          "#eaeff5"
+        ]
+      },
+      "field-stroke": {
+        "role": "neutral",
+        "displayName": "Field Stroke",
+        "canonical": "#cdc5b6",
+        "oklch": "oklch(82.6% 0.022 83)",
+        "tonalRamp": [
+          "#100a02",
+          "#2a2419",
+          "#484135",
+          "#676053",
+          "#898173",
+          "#aca496",
+          "#d0c8b9",
+          "#f6eede"
+        ]
+      },
+      "on-navy-text": {
+        "role": "neutral",
+        "displayName": "Pale Sky",
+        "canonical": "#dbe4f4",
+        "oklch": "oklch(91.7% 0.024 262)",
+        "tonalRamp": [
+          "#060b15",
+          "#1f2531",
+          "#3b424f",
+          "#5a626f",
+          "#7b8391",
+          "#9da5b4",
+          "#c1cad9",
+          "#e6efff"
+        ]
+      },
+      "brass": {
+        "role": "secondary",
+        "displayName": "Door Brass",
+        "canonical": "#b06f26",
+        "oklch": "oklch(59.9% 0.118 64)",
+        "tonalRamp": [
+          "#280000",
+          "#490e00",
+          "#6b2f00",
+          "#8e5000",
+          "#b37129",
+          "#d8944f",
+          "#ffb974",
+          "#ffde98"
+        ]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Error Red",
+        "canonical": "#a3261b",
+        "oklch": "oklch(47.2% 0.163 30)",
+        "tonalRamp": [
+          "#2d0000",
+          "#510000",
+          "#752017",
+          "#9a4237",
+          "#c06457",
+          "#e68778",
+          "#ffab9b",
+          "#ffd0bf"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only; uppercase navy. System stack is the shipped value, not an endorsed face."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings; uppercase, balanced; white on the navy close."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service row labels."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Hero promise, max 30-34ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running copy, 42-58ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons (750) and form labels (700)."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Hints, notes, validation messages."
+      }
+    },
+    "shadows": [
+      {
+        "name": "casing",
+        "value": "0 12px 18px -8px rgba(70,48,15,.4), 0 2px 3px rgba(70,48,15,.2)",
+        "purpose": "Window frame standing off the siding."
+      },
+      {
+        "name": "shutter",
+        "value": "0 10px 14px -6px rgba(70,48,15,.45), inset 0 0 0 1px rgba(0,0,0,.18)",
+        "purpose": "Shutters hung beside the window."
+      },
+      {
+        "name": "photo-print",
+        "value": "0 16px 26px -14px rgba(40,35,20,.45), 0 2px 4px rgba(40,35,20,.14)",
+        "purpose": "Framed job photos on the siding band."
+      },
+      {
+        "name": "lifted-card",
+        "value": "0 26px 44px -20px rgba(0,0,0,.55)",
+        "purpose": "Estimate card on navy."
+      },
+      {
+        "name": "recessed-glass",
+        "value": "inset 0 3px 8px rgba(0,0,0,.3)",
+        "purpose": "Inner shadow at the top of the window pane."
+      }
+    ],
+    "motion": [
+      {
+        "name": "color-shift",
+        "value": "0.2s (background-color, border-color, color)",
+        "purpose": "Buttons, links, service-row arrow. Colour only; nothing translates."
+      },
+      {
+        "name": "field-shift",
+        "value": "0.15s (border-color, box-shadow, background-color)",
+        "purpose": "Inputs and chips."
+      },
+      {
+        "name": "fog-regrow",
+        "value": "5% of cleared glass every 12 frames",
+        "purpose": "Fog creeping back over wiped glass."
+      },
+      {
+        "name": "fog-phantom-idle",
+        "value": "6000ms",
+        "purpose": "Idle time before the glass wipes itself."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Pre-clears a wave through the fog, stops beads and regrow, disables smooth scroll."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "700px"
+      },
+      {
+        "name": "desktop",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Navy fill, white label; the main call to action (Free estimate, Text this to KMD).",
+      "html": "<a class=\"ds-btn ds-btn-fill\" href=\"#\">Free estimate</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 16px;border:2px solid #12306c;border-radius:10px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;font-weight:750;font-size:1rem;line-height:1.2;text-decoration:none;cursor:pointer;transition:background-color .2s,border-color .2s,color .2s}.ds-btn-fill{background:#12306c;color:#fff}.ds-btn-fill:hover{background:#0d2453;border-color:#b06f26}.ds-btn:focus-visible{outline:3px solid #b06f26;outline-offset:3px}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Transparent with navy stroke; the secondary action beside a primary.",
+      "html": "<a class=\"ds-btn-line\" href=\"#\">See our work</a>",
+      "css": ".ds-btn-line{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 16px;border:2px solid #12306c;border-radius:10px;background:transparent;color:#12306c;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;font-weight:750;font-size:1rem;line-height:1.2;text-decoration:none;transition:border-color .2s}.ds-btn-line:hover{border-color:#b06f26}.ds-btn-line:focus-visible{outline:3px solid #b06f26;outline-offset:3px}"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Labelled field on the estimate card; brass stroke on hover and focus.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-lab\">Your town</span><input class=\"ds-inp\" type=\"text\"></label>",
+      "css": ".ds-field{display:block;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;color:#15213b}.ds-lab{display:block;margin:0 0 7px;font-weight:700;font-size:1rem}.ds-inp{display:block;width:100%;min-height:52px;padding:12px 14px;border:2px solid #cdc5b6;border-radius:10px;background:#fff;color:#15213b;font:inherit;font-size:1.0625rem;transition:border-color .15s}.ds-inp:hover{border-color:#b06f26}.ds-inp:focus{outline:2px solid #b06f26;outline-offset:2px;border-color:#b06f26}"
+    },
+    {
+      "name": "Choice Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Checkbox chip; checked turns navy with an SVG check.",
+      "html": "<label class=\"ds-chip\"><input type=\"checkbox\" checked><span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12.5l4.5 4.5L19 7.5\"/></svg>Windows</span></label> <label class=\"ds-chip\"><input type=\"checkbox\"><span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12.5l4.5 4.5L19 7.5\"/></svg>Shutters</span></label>",
+      "css": ".ds-chip{position:relative;display:inline-block;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}.ds-chip input{position:absolute;opacity:0;width:1px;height:1px;margin:0}.ds-chip span{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 16px;border:2px solid #cdc5b6;border-radius:10px;background:#fff;color:#15213b;font-weight:650;cursor:pointer;transition:border-color .15s,background-color .15s,color .15s}.ds-chip svg{width:16px;height:16px;display:none}.ds-chip:hover span{border-color:#b06f26}.ds-chip input:focus-visible+span{border-color:#b06f26;outline:2px solid #b06f26;outline-offset:2px}.ds-chip input:checked+span{background:#12306c;border-color:#12306c;color:#fff}.ds-chip input:checked+span svg{display:block}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": "",
+      "description": "Logo left, phone number right; no menu.",
+      "html": "<header class=\"ds-top\"><span class=\"ds-logo\">KMD</span><a class=\"ds-tel\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z\"/></svg>609-374-0679</a></header>",
+      "css": ".ds-top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 16px;background:#f4f6f7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}.ds-logo{font-weight:850;font-size:1.75rem;color:#12306c}.ds-tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-weight:750;font-size:1.0625rem;color:#12306c;text-decoration:none;transition:color .2s}.ds-tel svg{width:18px;height:18px}.ds-tel:hover{color:#b06f26}.ds-tel:focus-visible{outline:3px solid #b06f26;outline-offset:3px}"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Ruled list link with a circular arrow that fills brass on hover/focus.",
+      "html": "<ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\">Window installation<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a></li><li><a class=\"ds-row\" href=\"#\">Front doors<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a></li></ul>",
+      "css": ".ds-rows{list-style:none;margin:0;padding:0;border-top:1px solid #d9dee4;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}.ds-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:70px;padding:10px 2px;border-bottom:1px solid #d9dee4;text-decoration:none;font-size:1.4rem;font-weight:750;color:#15213b;outline:none}.ds-arrow{flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:#e3e7ec;color:#12306c;transition:background-color .2s,color .2s}.ds-arrow svg{width:18px;height:18px}.ds-row:hover .ds-arrow,.ds-row:focus-visible .ds-arrow{background:#b06f26;color:#fff}.ds-row:focus-visible .ds-arrow{outline:3px solid #b06f26;outline-offset:3px}"
+    },
+    {
+      "name": "Framed Photo",
+      "kind": "card",
+      "refersTo": "photo-frame",
+      "description": "Job photo matted in vinyl white on the siding band, with the warm photo-print shadow.",
+      "html": "<div class=\"ds-band\"><figure class=\"ds-frame\"><div class=\"ds-photo\"></div></figure></div>",
+      "css": ".ds-band{background:#efe8da;padding:24px}.ds-frame{margin:0;background:#fcfbf8;padding:10px;border-radius:4px;box-shadow:0 16px 26px -14px rgba(40,35,20,.45),0 2px 4px rgba(40,35,20,.14);max-width:260px}.ds-photo{aspect-ratio:3/4;background:linear-gradient(180deg,#a9c0da,#d9d3c4)}"
+    },
+    {
+      "name": "Estimate Card",
+      "kind": "card",
+      "refersTo": "form-card",
+      "description": "Vinyl-white form card lifted off the navy close section.",
+      "html": "<div class=\"ds-close\"><h2 class=\"ds-h2\">Get a free estimate</h2><div class=\"ds-card\">Your name, what you need, your town.</div></div>",
+      "css": ".ds-close{background:linear-gradient(180deg,#0d2453,#112c62);color:#fff;padding:32px 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}.ds-h2{margin:0 0 20px;font-size:2.2rem;font-weight:850;text-transform:uppercase;letter-spacing:-.01em;line-height:1.02;color:#fff}.ds-card{background:#fcfbf8;color:#15213b;border-radius:14px;padding:22px 18px 24px;box-shadow:0 26px 44px -20px rgba(0,0,0,.55)}"
+    },
+    {
+      "name": "Fogged Window",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Signature: double-hung window with navy shutters on lap siding (static CSS shell; the fog canvases are script-driven in the build).",
+      "html": "<div class=\"ds-wall\"><div class=\"ds-win\"><div class=\"ds-shutter\"></div><div class=\"ds-casing\"><div class=\"ds-pane\"><div class=\"ds-rail\"></div></div></div><div class=\"ds-shutter\"></div><div class=\"ds-sill\"></div></div></div>",
+      "css": ".ds-wall{display:flex;justify-content:center;padding:30px 16px 36px;background:radial-gradient(120% 90% at 12% 0%,rgba(255,247,224,.6),transparent 62%),repeating-linear-gradient(180deg,#ece4d2 0,#e5dcc8 17px,#d4c7ab 21px,#bfb092 24px);box-shadow:inset 0 12px 14px -12px rgba(60,40,10,.4)}.ds-win{display:grid;grid-template-columns:40px minmax(0,1fr) 40px;column-gap:8px;width:min(100%,360px)}.ds-shutter{position:relative;border:5px solid #12306c;border-radius:2px;background:repeating-linear-gradient(180deg,#244a94 0 2px,#16397d 2px 8px,#0c2556 8px 10px);box-shadow:0 10px 14px -6px rgba(70,48,15,.45),inset 0 0 0 1px rgba(0,0,0,.18)}.ds-casing{background:#fcfbf8;padding:10px;border-radius:3px;box-shadow:0 12px 18px -8px rgba(70,48,15,.4),0 2px 3px rgba(70,48,15,.2)}.ds-pane{position:relative;height:240px;background:linear-gradient(180deg,rgba(226,233,241,.9),rgba(217,211,196,.9)),#a9bccd;box-shadow:inset 0 3px 8px rgba(0,0,0,.3)}.ds-rail{position:absolute;left:0;right:0;top:50%;height:10px;transform:translateY(-50%);background:#fcfbf8;box-shadow:0 3px 5px rgba(0,0,0,.22)}.ds-sill{grid-column:2;height:14px;margin:0 -12px;background:#fcfbf8;border-radius:2px;box-shadow:0 7px 10px -3px rgba(70,48,15,.45)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Front of the House",
+    "overview": "Every surface is a piece of the front of a South Jersey house on a cool morning: the page ground is the window trim in daylight, the warm bands are beige lap siding, the dark blocks are the navy shutters (the logo's navy, and the shutters in the job photo), and the single warm accent is the brass on the front door. Nothing is decoration borrowed from elsewhere; if a colour or material does not exist on that house, it does not exist on the page.\n\nThe system is plain-spoken and dense with fact, built phone-first for a Facebook in-app browser. Type is heavy, upright and navy; content sits in simple stacked bands that widen into two columns on desktop. Depth is physical and only where a real object casts it: the window casing, the shutters, the sill, the photo prints in their vinyl frames, the estimate card lifted off the navy close. Flat UI everywhere else.\n\nThe signature is the fogged double-hung window: a photograph of a real install behind glass the visitor wipes clear, with condensation beads that form and run and fog that creeps back. It is the one piece of motion in the system, and it carries the story; everything around it stays still.",
+    "keyCharacteristics": [
+      "Cool vinyl-white ground, warm siding bands, navy shutters and close; brass appears only on hover and focus.",
+      "Heavy uppercase navy headlines (weight 850), tight leading, balanced wrapping.",
+      "Ten-pixel rounded controls with 2px strokes; large touch targets (44px minimum, 56px primary).",
+      "Physical, warm-tinted shadows on real objects only; everything else flat.",
+      "One interactive material moment (fogged glass) per page; no other ambient motion."
+    ],
+    "rules": [
+      {
+        "name": "The Hardware Rule",
+        "body": "Brass is door hardware: it appears only when the visitor touches something (hover, focus, focus-visible). A screen at rest shows no brass.",
+        "section": "colors"
+      },
+      {
+        "name": "The Real House Rule",
+        "body": "A colour earns its place by existing on the house in the job photo. New surfaces pick from trim white, siding beige, shutter navy and brass, not from a new hue.",
+        "section": "colors"
+      },
+      {
+        "name": "The Weight Ladder Rule",
+        "body": "Hierarchy comes from weight and case, not from extra families: 850 uppercase speaks, 750 acts, 400 reads.",
+        "section": "typography"
+      },
+      {
+        "name": "The Object Rule",
+        "body": "If it would cast a shadow on the actual house front, it may have one here; if it is interface, it stays flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep brass to hover, focus and focus-visible states (3px ring, 3px offset on buttons and links; 2px on fields and chips).",
+      "**Do** set section headings in 850 uppercase navy with balanced wrapping, white on the navy close.",
+      "**Do** give every tap target at least 44px, and primary actions 56px.",
+      "**Do** frame photographs of real jobs in a 10px vinyl-white matte with the warm photo-print shadow.",
+      "**Do** keep shadows warm-tinted (rgba(70,48,15) / rgba(40,35,20)) on the siding and reserve them for physical objects.",
+      "**Do** use inline SVG for every icon (phone, arrow, check, Facebook).",
+      "**Do** alternate cool paper bands with the warm siding band and close on navy."
+    ],
+    "donts": [
+      "**Don't** use brass as a resting fill, a text colour at rest, or a decorative stripe.",
+      "**Don't** introduce colours that are not on the house: no new accent hues, no gradients beyond the siding and the navy close.",
+      "**Don't** put shadows on buttons, chips, inputs or rows.",
+      "**Don't** add a second ambient animation; the fogged glass is the only moving thing on the page.",
+      "**Don't** add small uppercase labels above headings; headings stand on their own."
+    ]
+  }
+}
