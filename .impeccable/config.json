@@ -1,0 +1,56 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-19T23:51:10.697Z",
+        "reason": "Claude: photos are base64 in script blocks and assigned to img.src by the loader (pitch-site single-file pattern); verified rendering in screenshots"
+      },
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-19T23:51:10.785Z",
+        "reason": "Claude: lap siding and shutter louvers drawn with repeating gradients are the literal material of the committed world"
+      },
+      {
+        "rule": "dark-glow",
+        "value": "#3c280a",
+        "createdAt": "2026-10-19T23:51:10.869Z",
+        "reason": "Claude: warm inset eave shadow on the siding wall, offset, not a glow"
+      },
+      {
+        "rule": "overused-font",
+        "value": "roboto",
+        "createdAt": "2026-10-19T23:51:10.954Z",
+        "reason": "Claude: system font stack is Ellie's house rule for pitch sites (ellie-taste.md); Roboto is only the Android fallback"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-19T23:51:11.040Z",
+        "reason": "Claude: service rows are a divider list; rows are flush by design"
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-19T23:51:14.930Z",
+        "reason": "Claude: warm offset eave/frame shadows on the siding wall, not a glow"
+      }
+    ]
+  }
+}
