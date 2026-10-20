@@ -23,7 +23,7 @@
 - **Colors:** navy #12306c sampled from the logo; ground #f4f6f7 cool vinyl white; brass #b06f26 from the door hardware.
 
 ## Placeholders and gaps
-- Only one job photo exists; it's used four ways (behind the hero copy under a navy overlay, behind the fog, full house, door-and-shutters crop). White hero text samples at 6.4:1 or better at 360, 390 and 1440px. More photos wanted, especially before/afters.
+- Only one job photo exists; it's used four ways (behind the hero copy under a navy overlay, behind the fog, full house, door-and-shutters crop). White hero text samples at 6.4:1 or better at 360, 390 and 1440px. Fit check (Ellie's 2026-10-19 condition): the photo is portrait (960x1280) but the hero box is 390x342 on a phone and 702x820 on desktop (copy column only, not a wide band), so `object-fit:cover` keeps the whole two-storey front: windows, shutters, door. It's drawn at 1.22x on a 3x phone and 0.73x on desktop, so it isn't soft. Kept. More photos wanted, especially before/afters.
 - No reviews, hours, owner name, licence/insurance, years in business: none shown.
 - Favicon is "KMD" lettering on navy (the full logo can't be read at 16px); iPhone home-screen icon is the full logo.
 - Messenger (their stated preference) isn't wired; the form texts instead (Ellie's rule). An `m.me` link would need their page username.
