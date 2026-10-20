@@ -74,6 +74,42 @@
         ],
         "createdAt": "2026-10-20T01:22:00.000Z",
         "reason": "Claude: offset drop shadow under the floating text circle (calm-photo-style.md item 10, DPG reference), not a glow"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "rgb(27, 45, 85)",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T01:35:00.000Z",
+        "reason": "Claude: one-off loading placeholder behind lazy work photos, never seen once loaded"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#1877f2",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T01:35:00.000Z",
+        "reason": "Claude: Facebook's own logo blue on the Facebook glyph, not a palette colour"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "20px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T01:35:00.000Z",
+        "reason": "Claude: upper clamp endpoint of the hero promise (ellie-taste: pitch line max 20px)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "21px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T01:35:00.000Z",
+        "reason": "Claude: How-it-works step titles, shipped one-off from the DPG reference"
       }
     ]
   }

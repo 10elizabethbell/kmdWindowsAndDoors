@@ -51,7 +51,7 @@
 - **Not shown, because nothing was supplied:** reviews, hours, owner name, licence/insurance and years in business.
 - **Favicon and iPhone icon:** the logo's KMD lettering on paper (`favicon.png`, `apple-touch-icon.png`). The thin INSTALLATIONS line can't be read at 16px; the letters can.
 - **Messenger isn't wired up,** even though it is their stated preference. The form texts instead, per your rule. An `m.me` link would need their page username.
-- **Call Sheet:** not updated yet. `call-sheet-site.sh` runs after the push (see the report).
+- **Call Sheet:** the live URL is set on the KMD row (`call-sheet-site.sh`, 2026-10-19).
 
 ## Questions for the owner
 - Can 609-374-0679 receive texts?
