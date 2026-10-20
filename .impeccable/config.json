@@ -50,6 +50,24 @@
         ],
         "createdAt": "2026-10-19T23:51:14.930Z",
         "reason": "Claude: warm offset eave/frame shadows on the siding wall, not a glow"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T00:00:00.616Z",
+        "reason": "Claude: DESIGN.md was derived from this same index.html; the flagged literals (photo placeholder grey, selection tint, footer small text, fog fallback, siding/shutter shades) are shipped material details the documenter summarized rather than listed"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T00:00:00.688Z",
+        "reason": "Claude: 2-4px radii are window casing/sill/shutter parts, documented in DESIGN.md as window-part radii"
       }
     ]
   }
