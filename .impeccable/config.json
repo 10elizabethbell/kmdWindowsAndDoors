@@ -4,34 +4,58 @@
     "ignoreFiles": [],
     "ignoreValues": [
       {
-        "rule": "broken-image",
-        "value": "*",
-        "files": [
-          "index.html"
-        ],
-        "createdAt": "2026-10-19T23:51:10.697Z",
-        "reason": "Claude: photos are base64 in script blocks and assigned to img.src by the loader (pitch-site single-file pattern); verified rendering in screenshots"
-      },
-      {
         "rule": "repeating-stripes-gradient",
         "value": "*",
         "files": [
           "index.html"
         ],
-        "createdAt": "2026-10-19T23:51:10.785Z",
-        "reason": "Claude: lap siding and shutter louvers drawn with repeating gradients are the literal material of the committed world"
+        "createdAt": "2026-10-20T01:20:00.000Z",
+        "reason": "Ellie: calm band style, calm-photo-style.md 2026-10-19: faint 135deg line texture on deep bands, sanctioned"
       },
       {
-        "rule": "dark-glow",
-        "value": "#3c280a",
-        "createdAt": "2026-10-19T23:51:10.869Z",
-        "reason": "Claude: warm inset eave shadow on the siding wall, offset, not a glow"
+        "rule": "hero-eyebrow-chip",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T01:20:00.000Z",
+        "reason": "Ellie: calm band style, calm-photo-style.md 2026-10-19: eyebrow pills sanctioned"
       },
       {
-        "rule": "overused-font",
-        "value": "roboto",
-        "createdAt": "2026-10-19T23:51:10.954Z",
-        "reason": "Claude: system font stack is Ellie's house rule for pitch sites (ellie-taste.md); Roboto is only the Android fallback"
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T01:20:00.000Z",
+        "reason": "Ellie: calm band style, calm-photo-style.md 2026-10-19: eyebrow pills sanctioned"
+      },
+      {
+        "rule": "bounce-easing",
+        "value": "cubic-bezier(.34, 1.56, .64, 1)",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T01:20:00.000Z",
+        "reason": "Ellie: calm band style, calm-photo-style.md 2026-10-19: hero H1 letter bounce-in sanctioned"
+      },
+      {
+        "rule": "bounce-easing",
+        "value": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T01:20:00.000Z",
+        "reason": "Ellie: calm band style, calm-photo-style.md 2026-10-19: hero H1 letter bounce-in sanctioned"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T01:20:00.000Z",
+        "reason": "Claude: the listed 14-21px sizes are UI/body text only; headings are clamp() sizes (H1 42-76px, H2 30-48px, rows 22-28px) that the detector doesn't count, as on the DPG reference"
       },
       {
         "rule": "cramped-padding",
@@ -39,8 +63,8 @@
         "files": [
           "index.html"
         ],
-        "createdAt": "2026-10-19T23:51:11.040Z",
-        "reason": "Claude: service rows are a divider list; rows are flush by design"
+        "createdAt": "2026-10-20T01:22:00.000Z",
+        "reason": "Claude: service rows are a divider list flush to its top rule by design (DPG reference)"
       },
       {
         "rule": "dark-glow",
@@ -48,35 +72,8 @@
         "files": [
           "index.html"
         ],
-        "createdAt": "2026-10-19T23:51:14.930Z",
-        "reason": "Claude: warm offset eave/frame shadows on the siding wall, not a glow"
-      },
-      {
-        "rule": "design-system-color",
-        "value": "*",
-        "files": [
-          "index.html"
-        ],
-        "createdAt": "2026-10-20T00:00:00.616Z",
-        "reason": "Claude: DESIGN.md was derived from this same index.html; the flagged literals (photo placeholder grey, selection tint, footer small text, fog fallback, siding/shutter shades) are shipped material details the documenter summarized rather than listed"
-      },
-      {
-        "rule": "design-system-radius",
-        "value": "*",
-        "files": [
-          "index.html"
-        ],
-        "createdAt": "2026-10-20T00:00:00.688Z",
-        "reason": "Claude: 2-4px radii are window casing/sill/shutter parts, documented in DESIGN.md as window-part radii"
-      },
-      {
-        "rule": "design-system-font-size",
-        "value": "*",
-        "files": [
-          "index.html"
-        ],
-        "createdAt": "2026-10-20T00:00:10.023Z",
-        "reason": "Claude: DESIGN.md type ramp was derived from this page; the 4 flagged sizes (footer small, header tel, steps numerals) are shipped one-offs"
+        "createdAt": "2026-10-20T01:22:00.000Z",
+        "reason": "Claude: offset drop shadow under the floating text circle (calm-photo-style.md item 10, DPG reference), not a glow"
       }
     ]
   }
