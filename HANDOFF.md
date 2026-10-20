@@ -6,7 +6,7 @@
 - One page, `index.html` (single file, ~600KB with three embedded photos), phone first.
 - **World:** the front of their customer's house: lap siding, a white vinyl double-hung window, navy louvered shutters (logo navy and the shutters in their own job photo), brass only on hover/focus.
 - **Signature element:** the hero window's glass is fogged. It wipes itself in slow strokes until someone touches it; a finger (any direction, page doesn't scroll) or the mouse wipes it clear to show their real install behind. Condensation beads form, swell, and run down leaving clear trails; the fog creeps back over a few seconds. It lives in the hero only: a second fogged pane behind the estimate form read as specks on navy and was cut in review (the `Pane` code still supports a photo-less pane via `base`/`avoid` options if Ellie wants it back somewhere).
-- Sections: header (real logo, phone top-right) → hero (LET THE LIGHT BACK IN., promise, Free estimate / See our work) → What we do (4 rows, each preselects the form) → Back for more (the repeat-customer story, two crops of the job photo, Facebook button) → How it works (3 steps) → Get a free estimate (form composes a text to 609-374-0679, with a copy-message fallback) → footer (name, phone, email, Facebook).
+- Sections: header (real logo, phone top-right) → hero (their job photo behind the copy under a navy overlay, per Ellie's 2026-10-19 photo-hero rule; LET THE LIGHT BACK IN. in white, promise, Free estimate / See our work) → What we do (4 rows, each preselects the form) → Back for more (the repeat-customer story, two crops of the job photo, Facebook button) → How it works (3 steps) → Get a free estimate (form composes a text to 609-374-0679, with a copy-message fallback) → footer (name, phone, email, Facebook).
 - Tunables are named at the top of the fog script (`FOG.REGROW`, `PHANTOM_IDLE`, `PHANTOM_SPEED`, `BRUSH_FRAC`, `RUN_CHANCE`...).
 
 ## Assumptions I made
@@ -23,7 +23,7 @@
 - **Colors:** navy #12306c sampled from the logo; ground #f4f6f7 cool vinyl white; brass #b06f26 from the door hardware.
 
 ## Placeholders and gaps
-- Only one job photo exists; it's used three ways (hero behind fog, full house, door-and-shutters crop). More photos wanted, especially before/afters.
+- Only one job photo exists; it's used four ways (behind the hero copy under a navy overlay, behind the fog, full house, door-and-shutters crop). White hero text samples at 6.4:1 or better at 360, 390 and 1440px. More photos wanted, especially before/afters.
 - No reviews, hours, owner name, licence/insurance, years in business: none shown.
 - Favicon is "KMD" lettering on navy (the full logo can't be read at 16px); iPhone home-screen icon is the full logo.
 - Messenger (their stated preference) isn't wired; the form texts instead (Ellie's rule). An `m.me` link would need their page username.

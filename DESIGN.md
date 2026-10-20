@@ -180,7 +180,7 @@ A house-front palette: one cool white, one warm beige, a three-step navy, and a 
 **Character:** One family carried by weight: 850 uppercase for headlines, 750 for interactive labels and service titles, 400 for reading. See the note under Named Rules on the display face.
 
 ### Hierarchy
-- **Display** (850, clamp(2.2rem, 10.4vw, 4.6rem), 0.97, uppercase, -0.015em): The hero headline only, one per page, navy.
+- **Display** (850, clamp(2.2rem, 10.4vw, 4.6rem), 0.97, uppercase, -0.015em): The hero headline only, one per page, white on the photo hero.
 - **Headline** (850, clamp(1.85rem, 7.6vw, 2.9rem), 1.02, uppercase, -0.01em): Section headings; navy on light grounds, white on the navy close. Always `text-wrap: balance`.
 - **Title** (750, clamp(1.25rem, 5.4vw, 1.6rem)): Service rows. Step headings use 1.25rem at default bold with 1.25 leading.
 - **Numeral** (850, 2.6rem, 0.9): The 1-2-3 step numbers, navy, set in a 44px column beside the step.
@@ -198,7 +198,7 @@ A house-front palette: one cool white, one warm beige, a three-step navy, and a 
 
 Single column, phone first, in full-bleed bands: header, hero, services, work (siding band), how it works, estimate (navy band), footer. Content sits in a 1120px max container; the header runs slightly wider (1184px).
 
-- **Phone (<700px):** sections pad 60px vertical, 16px gutters. Hero stacks copy over the window wall. Primary actions sit side by side in a two-column grid (max 440px wide).
+- **Phone (<700px):** sections pad 60px vertical, 16px gutters. Hero stacks copy over the window wall. The hero copy sits on their own job photo (the house shot cropped to sky and upper floor) under a navy overlay, rgba(10,28,66) at .66 to .84, with white text; sampled worst-case contrast is 6.4:1. Buttons on it are a white fill with navy text and a white outline. Primary actions sit side by side in a two-column grid (max 440px wide).
 - **Tablet (>=700px):** sections pad 80px / 32px. Photo frames go two-up at 3fr / 4fr. Steps go three across. Footer becomes three columns (1.2fr 1fr 1fr).
 - **Desktop (>=1024px):** hero splits copy and wall side by side (1fr / 1.05fr), up to 860px tall, copy aligned to the container's left edge. Services run heading beside list (1fr / 1.4fr). Work puts the tall house photo in the left column spanning the intro, close-up and Facebook link. The estimate pairs heading with a form card capped at 500px.
 

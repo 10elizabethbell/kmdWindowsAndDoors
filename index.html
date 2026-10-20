@@ -55,7 +55,16 @@ h2{font-size:clamp(1.85rem,7.6vw,2.9rem);font-weight:850;text-transform:uppercas
 
 /* ---------- Hero ---------- */
 .hero{display:grid}
-.hero-copy{padding:18px 16px 28px}
+.hero-copy{position:relative;isolation:isolate;padding:26px 16px 28px;background:var(--navy-3);color:#fff}
+/* Their own job photo behind the copy: sky and the upper floor, under a navy overlay */
+.hero-bg{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:50% 8%;pointer-events:none}
+.hero-copy::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(10,28,66,.66),rgba(10,28,66,.84))}
+.hero-copy h1,.hero-copy .promise{color:#fff}
+.hero-copy .btn-fill{background:#fff;border-color:#fff;color:var(--navy-2)}
+.hero-copy .btn-fill:hover{background:#fff;border-color:var(--brass)}
+.hero-copy .btn-line{color:#fff;border-color:#fff}
+.hero-copy .btn-line:hover{border-color:var(--brass)}
+.hero-copy .hint{color:#dbe4f4}
 h1{font-size:clamp(2.2rem,10.4vw,4.6rem);font-weight:850;text-transform:uppercase;letter-spacing:-.015em;line-height:.97;color:var(--navy);margin:0 0 14px;text-wrap:balance}
 .promise{font-size:clamp(1.0625rem,4.6vw,1.25rem);line-height:1.45;max-width:30ch;margin:0 0 22px;text-wrap:pretty}
 .actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:440px}
@@ -172,7 +181,7 @@ textarea.inp{min-height:104px;resize:vertical}
   .logo img{height:52px}
   .tel{font-size:1.1875rem}
   .hero{grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);min-height:min(calc(100svh - 80px),860px)}
-  .hero-copy{align-self:center;padding:48px clamp(32px,5vw,88px) 48px max(32px,calc((100vw - 1120px)/2))}
+  .hero-copy{display:flex;flex-direction:column;justify-content:center;padding:48px clamp(32px,5vw,88px) 48px max(32px,calc((100vw - 1120px)/2))}
   .promise{max-width:34ch}
   .wall{padding:56px 40px;box-shadow:inset 14px 0 16px -14px rgba(60,40,10,.35)}
   .pane{height:clamp(380px,60svh,560px)}
@@ -192,7 +201,7 @@ DIRECTION CONTRACT
 THESIS: KMD's customers come back. The page is a clear view through work they already did, in a voice that sounds like the people who'll show up.
 OWN-WORLD: The front of a South Jersey house on a cool morning: beige lap siding, white vinyl window frames, navy shutters (the logo's navy, and the shutters in their own job photo), brass door hardware. The old glass is fogged; you wipe it clear to see their real install behind it, beads of condensation form and run, and the fog slowly creeps back.
 STORY: Fogged glass -> wipe -> their install behind it -> what they do -> the repeat-customer job -> how it works -> text a free estimate.
-FIRST VIEWPORT (phone): logo + phone number top right; LET THE LIGHT BACK IN.; the promise; Free estimate / See our work; the fogged double-hung window on siding, already being wiped.
+FIRST VIEWPORT (phone): logo + phone number top right; LET THE LIGHT BACK IN. in white over their own job photo (sky and upper floor) under a navy overlay; the promise; Free estimate / See our work; the fogged double-hung window on siding, already being wiped.
 FORM: one page, phone first, system type with heavy uppercase navy display, cool vinyl-white ground (the window trim) against warm beige siding, navy close and footer. Brass is the only accent and only on hover/focus.
 -->
 <header class="top">
@@ -203,6 +212,7 @@ FORM: one page, phone first, system type with heavy uppercase navy display, cool
 <main id="top">
 <section class="hero" aria-labelledby="h1" style="padding:0">
   <div class="hero-copy">
+    <img class="hero-bg" data-src="img-house" data-eager width="960" height="1280" alt="" draggable="false">
     <h1 id="h1">Let the light back in.</h1>
     <p class="promise">New windows and doors for your home, put in with the same care we'd want in our own.</p>
     <div class="actions">
