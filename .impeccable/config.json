@@ -68,6 +68,15 @@
         ],
         "createdAt": "2026-10-20T00:00:00.688Z",
         "reason": "Claude: 2-4px radii are window casing/sill/shutter parts, documented in DESIGN.md as window-part radii"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T00:00:10.023Z",
+        "reason": "Claude: DESIGN.md type ramp was derived from this page; the 4 flagged sizes (footer small, header tel, steps numerals) are shipped one-offs"
       }
     ]
   }
